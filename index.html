@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre-Papier-Ciseaux avec Super-Pouvoirs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Pierre-Papier-Ciseaux avec Super-Pouvoirs</h1>
+        <div id="choices">
+            <img src="https://www.mineraux.fr/wp-content/uploads/2020/12/pierre-meteorite-caracteristiques.jpg" alt="Pierre" class="choice" data-choice="pierre">
+            <img src="https://www.photofunky.net/output/image/f/1/3/b/f13b7f/photofunky.gif" alt="Papier" class="choice" data-choice="papier">
+            <img src="https://i.gifer.com/RtR4.gif" alt="Ciseaux" class="choice" data-choice="ciseaux">
+            <img src="https://media.tenor.com/FrMR6ckwLb0AAAAM/goodnight-bye.gif" alt="Invisibilité" class="choice" data-choice="invisibilite">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm8zdzVrZmMyeDBoMndvdHB6bXBvbzg2YTloNDB6dncyMmN0NGFwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oe33xf3B50fsc/giphy.gif" alt="Explosion" class="choice" data-choice="explosion">
+        </div>
+        <div id="result"></div>
+        <div id="score">
+            <p>Joueur : <span id="player-score">0</span></p>
+            <p>Bot : <span id="bot-score">0</span></p>
+        </div>
+        <button id="reset" style="display: none;">Recommencer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
